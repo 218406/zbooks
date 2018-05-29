@@ -19,3 +19,5 @@ libraryDependencies += "org.awaitility" % "awaitility" % "2.0.0" % Test
 
 // Make verbose tests
 testOptions in Test := Seq(Tests.Argument(TestFrameworks.JUnit, "-a", "-v"))
+
+libraryDependencies += "org.webjars" % "bootstrap" % "4.0.0-2"
