@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/zbooks -D http.port=${PORT}
+web: target/universal/stage/bin/zbooks -Dhttp.port=${PORT}
